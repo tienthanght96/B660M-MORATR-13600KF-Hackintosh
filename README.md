@@ -1,4 +1,4 @@
-# Hackintosh for MSI MAG B660M MORTAR WIFI DDR4
+# Hackintosh for [MSI MAG B660M MORTAR WIFI DDR4](https://www.msi.com/Motherboard/MAG-B660M-MORTAR-WIFI-DDR4)
 
 ### Hardware
 
@@ -12,7 +12,7 @@
 | Drive                   | SAMSUNG EVO 860 250GB - WD SN750 500GB　 |
 | Monitor                 | Dell P2419H - LG 27GL850                |
 | OpenCore version        | 0.9.2                                   |
-| macOS version           | macOS Ventura 13.2 (22D49)              |
+| macOS version           | macOS Ventura 13.4 (22F66)              |
 
 ### Benchmark CPU Score
 
@@ -29,7 +29,7 @@
 ## What's not working/issues?
 
 1. Can not connect some bluetooth devices (can be found, but cann't pair).
-2. After wake when sleep, the bluetooth not working.
+2. Wake up from sleep, the bluetooth not working.
 
 ## BIOS Settings
 
@@ -48,22 +48,22 @@
 
 ## Generate your EFI
 
-1. OpenCore Auxiliary Tools
-2. Hackintool
-3. Should disable Intel Bluetooth kexts, re-enable when installed.
+1. [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
+2. [Hackintool](https://github.com/benbaker76/Hackintool)
+3. Should disable Intel Bluetooth Kexts, re-enable when installed.
 
 ## About Onboard Wi-Fi and bluetooth `[!!!Important!!!]`
 
 This EFI already supported for onboard Wi-Fi and Bluetooth, but recommend replace native wifi cards to fully support.
-If you want to use onboard Wi-Fi, please add AirportItlwm.kext. I only use Bluetooth so I removed this kext.
+If you want to use onboard Wi-Fi, please add AirportItlwm.kext. I only use Bluetooth so I removed this Kext.
 
 ## Support for other AMD GPUs
 
-This EFI supports 6000 Series AMD GPUs.
+This EFI supports 5000 & 6000 Series AMD GPUs.
 
 ## About USB map
 
-Maybe you need to make some changes to suit your USB and case. I using hackintool to export USBPorts.kext.
+Maybe you need to make some changes to suit your USB and case. I'm using Hackintool to export USBPorts.kext.
 
 ## References
 
