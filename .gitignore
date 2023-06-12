@@ -8,3 +8,8 @@ Icon
 
 # Thumbnails
 ._*
+
+# IDE
+*.iml
+.idea
+.vscode
