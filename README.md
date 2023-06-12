@@ -11,7 +11,7 @@
 | Wifi and Bluetooth card | Support onboard Wi-Fi and Bluetooth     |
 | Drive                   | SAMSUNG EVO 860 250GB - WD SN750 500GB　 |
 | Monitor                 | Dell P2419H - LG 27GL850                |
-| OpenCore version        | 0.9.2                                   |
+| OpenCore version        | 0.9.3                                   |
 | macOS version           | macOS Ventura 13.4 (22F66)              |
 
 ### Benchmark CPU Score
